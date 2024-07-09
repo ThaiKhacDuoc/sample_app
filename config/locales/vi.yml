@@ -1,0 +1,18 @@
+vi:
+  hello: "Xin chào thế giới"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  home:
+    title: "Trang chủ"
+    content: "Ruby on Rails Tutorial Sample App. Trang chủ."
+  help:
+    title: "Trợ giúp"
+    content: "Ruby on Rails Tutorial Sample App. Trang hỗ trợ."
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+    logo: "Logo"
+  zone: "Khu vực %{zone}"
+  date: "Ngày %{date}"
+  editing_zone: "Chỉnh sửa Khu vực"
+  new_zone: "Khu vực mới"
