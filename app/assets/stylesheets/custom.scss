@@ -71,3 +71,7 @@ select,
 input {
   height: auto !important;
 }
+
+.dropdown-menu.active {
+  display: block;
+}
