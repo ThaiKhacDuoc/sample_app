@@ -1,19 +1,35 @@
 vi:
   hello: "Xin chào thế giới"
   base_title: "Ruby on Rails Tutorial Sample App"
+  user_created_successfully: "Người dùng đã được tạo thành công"
+  user_creation_failed: "Tạo người dùng thất bại"
   language:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
   home:
     title: "Trang chủ"
-    content: "Chào mừng bạn đến với Sample App!! Đây là trang chủ dành cho"
-    content_2: Ruby on Rails Tutorial
+    content: "Ruby on Rails Tutorial Sample App. Trang chủ."
   help:
     title: "Trợ giúp"
-    content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
-    content_2: "Rails Tutorial help page"
+    content: "Ruby on Rails Tutorial Sample App. Trang hỗ trợ."
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
     logo: "Logo"
+  sign_up:
+    title: "Đăng ký"
+    create_my_account: "Tạo tài khoản mới"
+    confirmation: "Xác nhận lại mật khẩu"
+    welcome_msg: "Chào mừng bạn đến với Sample_app"
+    the_form_contains: "Biển mẫu bao gồm"
+    error: "Lỗi"
+  information:
+    user:
+      name: "Tên"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    user_info:
+      name: "Tên %{name}"
+      email: "Thư điện tử %{email}"

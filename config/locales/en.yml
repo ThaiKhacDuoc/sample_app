@@ -32,6 +32,8 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  user_created_successfully: "User created successfully"
+  user_creation_failed: "User creation failed"
   language:
     english: "English"
     vietnamese: "Vietnamese"
@@ -48,3 +50,18 @@ en:
     help: "Help"
     login: "Login"
     logo: "Logo"
+  sign_up:
+    title: "Sign Up"
+    create_my_account: "Create My Account"
+    welcome_msg: "Welcome to the Sample App"
+    the_form_contains: "The form contains"
+    error: "error"
+  information:
+    user:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+    user_info:
+      name: "Name %{name}"
+      email: "Email %{email}"
