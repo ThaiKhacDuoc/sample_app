@@ -40,5 +40,6 @@ vi:
       email: "Thư điện tử"
       password: "Mật khẩu"
       login: "Đăng nhập"
+      remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       invalid: "Tài khoản/mật khẩu không hợp lệ"
