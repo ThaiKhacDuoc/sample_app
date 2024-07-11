@@ -13,6 +13,10 @@ module RailsTutorial
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     config.i18n.available_locales = [:en, :vi]
     config.i18n.default_locale = :vi
+    config.email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+    config.maximum_email_length = 255
+    config.maximum_name_length = 50
+    config.min_password_length = 9
 
     # Configuration for the application, engines, and railties goes here.
     #
