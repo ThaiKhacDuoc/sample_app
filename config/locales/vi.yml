@@ -1,0 +1,19 @@
+vi:
+  hello: "Xin chào thế giới"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  language:
+    english: "Tiếng Anh"
+    vietnamese: "Tiếng Việt"
+  home:
+    title: "Trang chủ"
+    content: "Chào mừng bạn đến với Sample App!! Đây là trang chủ dành cho"
+    content_2: Ruby on Rails Tutorial
+  help:
+    title: "Trợ giúp"
+    content: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+    content_2: "Rails Tutorial help page"
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+    logo: "Logo"

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get "demo_partials/new"
+  get "demo_partials/edit"
+  scope "(:locale)", locale: /en|vi/ do
+    get "static_pages/home"
+    get "static_pages/help"
+  end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

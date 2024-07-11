@@ -31,3 +31,20 @@
 
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  language:
+    english: "English"
+    vietnamese: "Vietnamese"
+  home:
+    title: "Home"
+    content: "Welcome to the Sample App! This is the home page for the"
+    content_2: Ruby on Rails Tutorial
+  help:
+    title: "Help"
+    content: "Get help on the Ruby on Rails Tutorial at the"
+    content_2: "Rails Tutorial help page"
+  header:
+    home: "Home"
+    help: "Help"
+    login: "Login"
+    logo: "Logo"
