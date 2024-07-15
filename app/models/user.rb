@@ -13,7 +13,7 @@ class User < ApplicationRecord
                     length: {maximum: Settings.maximum_email_length},
                     format: {with: Regexp.new(Settings.email_regex)}
 
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
                        length: {minimum: Settings.min_password_length}
 
   class << self

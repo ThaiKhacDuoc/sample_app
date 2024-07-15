@@ -34,6 +34,11 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   user_created_successfully: "User created successfully"
   user_creation_failed: "User creation failed"
+  user_update_successfully: "User updated successfully"
+  user_update_failed: "User update failed"
+  please_log_in: "Please log in"
+  user_deleted_successfully: "User deleted"
+  user_delete_failed: "User delete failed"
   language:
     english: "English"
     vietnamese: "Vietnamese"
@@ -56,6 +61,11 @@ en:
     welcome_msg: "Welcome to the Sample App"
     the_form_contains: "The form contains"
     error: "error"
+  edit:
+    title: "Edit user"
+  change:
+    edit_my_account: "Edit My Account"
+    img_my_account: "Edit Image"
   information:
     user:
       name: "Name"
@@ -65,6 +75,11 @@ en:
     user_info:
       name: "Name %{name}"
       email: "Email %{email}"
+    edit:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
   sessions:
     login: "Login"
     new:
@@ -75,3 +90,10 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+  error:
+    user_not_correct: "User not correct"
+    user_not_admin: "You are not admin"
+  all_user:
+    title: "All users"
+    delete: "Delete"
+    confirm_delete: "Are you sure?"
