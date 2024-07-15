@@ -17,16 +17,14 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("user_created_successfully")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "sign_up.notification_mail"
+      redirect_to root_url, status: :see_other
     else
       flash.now[:danger] = t("user_creation_failed")
       render :new, status: :unprocessable_entity
     end
   end
-
-  def edit; end
 
   def update
     if @user&.update user_params
@@ -46,6 +44,8 @@ class UsersController < ApplicationController
     end
     redirect_to users_path
   end
+
+  def edit; end
 
   private
   def user_params
