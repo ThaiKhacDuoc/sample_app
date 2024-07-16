@@ -1,6 +1,6 @@
 help_link: "http://www.railstutorial.org/help"
 home_link: "http://www.railstutorial.org/"
-email_regex: '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+email_regex: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
 maximum_email_length: 255
 maximum_name_length: 50
 min_password_length: 9

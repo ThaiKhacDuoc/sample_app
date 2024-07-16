@@ -1,5 +1,6 @@
 class User < ApplicationRecord
-  before_save{email.downcase!}
+  PERMITTED_ATTRIBUTES = [:name, :email, :password,
+                          :password_confirmation].freeze
   has_secure_password
 
   validates :name, presence: true,
@@ -7,8 +8,10 @@ class User < ApplicationRecord
 
   validates :email, presence: true, uniqueness: true,
                     length: {maximum: Settings.maximum_email_length},
-                    format: {with: Settings.application.config.email_regex}
+                    format: {with: Regexp.new(Settings.email_regex)}
 
   validates :password, presence: true,
                        length: {minimum: Settings.min_password_length}
+
+  before_save {self.email = email.downcase}
 end
