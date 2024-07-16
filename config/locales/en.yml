@@ -65,3 +65,12 @@ en:
     user_info:
       name: "Name %{name}"
       email: "Email %{email}"
+  sessions:
+    login: "Login"
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      login: "Log in"
+    create:
+      invalid: "Invalid email/password combination"

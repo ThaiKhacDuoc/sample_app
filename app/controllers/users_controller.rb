@@ -13,11 +13,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
+      log_in @user
       flash[:success] = t("user_created_successfully")
       redirect_to @user
     else
       flash.now[:danger] = t("user_creation_failed")
-      render :new
+      render :new, status: :unprocessable_entity
     end
   end
 

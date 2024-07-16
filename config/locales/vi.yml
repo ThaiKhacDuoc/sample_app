@@ -33,3 +33,12 @@ vi:
     user_info:
       name: "Tên %{name}"
       email: "Thư điện tử %{email}"
+  sessions:
+    login: "Đăng nhập"
+    new:
+      title: "Đăng nhập"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      login: "Đăng nhập"
+    create:
+      invalid: "Tài khoản/mật khẩu không hợp lệ"
