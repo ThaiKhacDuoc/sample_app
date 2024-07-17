@@ -3,6 +3,11 @@ vi:
   base_title: "Ruby on Rails Tutorial Sample App"
   user_created_successfully: "Người dùng đã được tạo thành công"
   user_creation_failed: "Tạo người dùng thất bại"
+  user_update_successfully: "Người dùng đã được cập nhật thành công"
+  user_update_failed: "Cập nhật người dùng thất bại"
+  please_log_in: "Vui lòng đăng nhập"
+  user_deleted_successfully: "Người dùng đã bị xóa"
+  user_delete_failed: "Xóa người dùng thất bại"
   language:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
@@ -24,6 +29,11 @@ vi:
     welcome_msg: "Chào mừng bạn đến với Sample_app"
     the_form_contains: "Biển mẫu bao gồm"
     error: "Lỗi"
+  edit:
+    title: "Chỉnh sửa thông tin người dùng"
+  change:
+    edit_my_account: "Chỉnh sửa thông tin cá nhân"
+    img_my_account: "Chỉnh sửa ảnh đại diện"
   information:
     user:
       name: "Tên"
@@ -33,6 +43,11 @@ vi:
     user_info:
       name: "Tên %{name}"
       email: "Thư điện tử %{email}"
+    edit:
+      name: "Tên"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
   sessions:
     login: "Đăng nhập"
     new:
@@ -43,3 +58,10 @@ vi:
       remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       invalid: "Tài khoản/mật khẩu không hợp lệ"
+  error:
+    user_not_correct: "Người dùng không chính xác"
+    user_not_admin: "Bạn không có quyền truy cập trang này."
+  all_user:
+    title: "Danh sách người dùng"
+    delete: "Xóa"
+    confirm_delete: "Bạn có chắc chắn muốn xóa người dùng này không?"
