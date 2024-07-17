@@ -29,6 +29,7 @@ vi:
     welcome_msg: "Chào mừng bạn đến với Sample_app"
     the_form_contains: "Biển mẫu bao gồm"
     error: "Lỗi"
+    notification_mail: "Một thông báo với liên kết xác nhận đã được gửi đến địa chỉ email của bạn. Vui lòng làm theo liên kết để kích hoạt tài khoản của bạn."
   edit:
     title: "Chỉnh sửa thông tin người dùng"
   change:
@@ -65,3 +66,9 @@ vi:
     title: "Danh sách người dùng"
     delete: "Xóa"
     confirm_delete: "Bạn có chắc chắn muốn xóa người dùng này không?"
+  user_mailer:
+    title: "Xác nhận tài khoản"
+    account_activation: "Kích hoạt tài khoản"
+    message: "Chào mừng đến với Sample App của Ruby on Rails. Hãy nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    success: "Chào mừng bạn đến với Sample App!!!"
+    invalid: "Tài khoản/ mật khẩu không trùng khớp"
