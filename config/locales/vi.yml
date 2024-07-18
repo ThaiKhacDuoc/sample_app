@@ -22,6 +22,7 @@ vi:
     help: "Trợ giúp"
     login: "Đăng nhập"
     logo: "Logo"
+    users: "Người dùng"
   sign_up:
     title: "Đăng ký"
     create_my_account: "Tạo tài khoản mới"
@@ -57,6 +58,7 @@ vi:
       password: "Mật khẩu"
       login: "Đăng nhập"
       remember_me: "Ghi nhớ tôi trên máy tính này"
+      forgot_password: "Quên mật khẩu?"
     create:
       invalid: "Tài khoản/mật khẩu không hợp lệ"
   error:
@@ -72,3 +74,21 @@ vi:
     message: "Chào mừng đến với Sample App của Ruby on Rails. Hãy nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
     success: "Chào mừng bạn đến với Sample App!!!"
     invalid: "Tài khoản/ mật khẩu không trùng khớp"
+  password_resets:
+    title: "Đặt lại mật khẩu"
+    submit: "Gửi"
+    email: "Email"
+    send_password_reset_email: "Đã gửi email đặt lại mật khẩu. Vui lòng kiểm tra hộp thư của bạn."
+    email_not_found: "Email không tồn tại"
+    message: "Chào mừng đến với Sample App của Ruby on Rails. Hãy nhấp vào liên kết bên dưới để đặt lại mật khẩu của bạn:"
+    message_2: "Liên kết đặt lại mật khẩu sẽ hết hạn sau 2 giờ."
+    message_3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
+    reset:
+      user_not_found: "Người dùng không tồn tại"
+      invalid_user: "Người dùng không hợp lệ"
+      error_password_empty: "Mật khẩu không thể để trống"
+      success_reset_password: "Mật khẩu đã được đặt lại"
+      expired_error: "Liên kết đặt lại mật khẩu đã hết hạn."
+      new_pass: "Mật khẩu mới"
+      confirmation_password_reset: "Xác nhận đặt lại mật khẩu"
+      submit_reset_password: "Gửi yêu cầu đặt lại mật khẩu"
