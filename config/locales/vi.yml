@@ -14,6 +14,8 @@ vi:
   home:
     title: "Trang chủ"
     content: "Ruby on Rails Tutorial Sample App. Trang chủ."
+    content_2: "Ruby on Rails Tutorial"
+    feed: "Bảng tin bài viết"
   help:
     title: "Trợ giúp"
     content: "Ruby on Rails Tutorial Sample App. Trang hỗ trợ."
@@ -42,6 +44,8 @@ vi:
       email: "Thư điện tử"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+      view_profile: "Xem hồ sơ"
+      micropost: "Bài viết"
     user_info:
       name: "Tên %{name}"
       email: "Thư điện tử %{email}"
@@ -92,3 +96,22 @@ vi:
       new_pass: "Mật khẩu mới"
       confirmation_password_reset: "Xác nhận đặt lại mật khẩu"
       submit_reset_password: "Gửi yêu cầu đặt lại mật khẩu"
+  micropost:
+    image_type: "Phải là một ảnh JPEG, GIF, hoặc PNG"
+    image_size: "Ảnh phải nhỏ hơn 5MB"
+    show:
+      posted_ago: "Bài viết được đăng %{time} trước."
+    create:
+      success: "Tạo bài viết thành công"
+      placeholder: "Viết bài mới..."
+      submit: "Đăng"
+      image_type: "Phải là một ảnh JPEG, GIF, hoặc PNG"
+      image_size: "Ảnh phải nhỏ hơn 5MB"
+      image_size_alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    delete:
+      title: "Xóa bài viết"
+      confirmation: "Bạn có chắc chắn muốn xóa bài viết này không?"
+    destroy:
+      success: "Bài viết đã được xóa."
+      fail: "Bài viết không được xóa"
+      invalid: "Bài viết không hợp lệ"

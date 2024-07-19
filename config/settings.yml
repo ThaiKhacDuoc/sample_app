@@ -8,6 +8,11 @@ maximum_email_length: 255
 maximum_name_length: 50
 min_password_length: 9
 pagy_items: 10
+digit_140: 140
+page_10: 10
+digit_50: 50
+img_size: 5
+digit_200: 200
 gravatar:
   size: 80
   list_size: 50

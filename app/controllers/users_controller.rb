@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy User.all, items: Settings.pagy_items
   end
 
-  def show; end
+  def show
+    @page, @microposts = pagy @user.microposts, items: Settings.page_10
+  end
 
   def new
     @user = User.new
@@ -57,14 +59,6 @@ class UsersController < ApplicationController
     return if @user
 
     redirect_to root_path unless @user
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t("please_log_in")
-    store_location
-    redirect_to login_path
   end
 
   def correct_user
