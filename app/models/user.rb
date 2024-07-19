@@ -1,6 +1,9 @@
 class User < ApplicationRecord
   PERMITTED_ATTRIBUTES = [:name, :email, :password,
                           :password_confirmation].freeze
+
+  has_many :microposts, dependent: :destroy
+
   has_secure_password
   before_save :downcase_email
   before_create :create_activation_digest
@@ -16,6 +19,10 @@ class User < ApplicationRecord
 
   validates :password, presence: true, allow_nil: true,
                        length: {minimum: Settings.min_password_length}
+
+  def feed
+    microposts
+  end
 
   class << self
     def digest string

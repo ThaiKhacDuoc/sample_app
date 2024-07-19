@@ -46,7 +46,8 @@ en:
   home:
     title: "Home"
     content: "Welcome to the Sample App! This is the home page for the"
-    content_2: Ruby on Rails Tutorial
+    content_2: "Ruby on Rails Tutorial"
+    feed: "All microposts"
   help:
     title: "Help"
     content: "Get help on the Ruby on Rails Tutorial at the"
@@ -75,6 +76,8 @@ en:
       email: "Email"
       password: "Password"
       password_confirmation: "Confirmation"
+      view_profile: "View Profile"
+      micropost: "Micropost"
     user_info:
       name: "Name %{name}"
       email: "Email %{email}"
@@ -125,3 +128,22 @@ en:
       new_pass: "New password"
       confirmation_password_reset: "Confirmation password reset"
       submit_reset_password: "Submit"
+  micropost:
+    image_type: "Must be a JPEG, GIF, or PNG"
+    image_size: "Should be less than 5MB"
+    show:
+      posted_ago: "Microropost posted %{time} ago."
+    create:
+      success: "Micropost created!"
+      placeholder: "Compose new micropost..."
+      submit: "Post"
+      image_type: "Must be a JPEG, GIF, or PNG"
+      image_size: "Should be less than 5MB"
+      image_size_alert: "Maximum file size is 5MB. Please choose a smaller file."
+    delete:
+      title: "Delete"
+      confirmation: "Are you sure?"
+    destroy:
+      success: "Micropost deleted."
+      fail: "Micropost not deleted"
+      invalid: "Micropost invalid"
