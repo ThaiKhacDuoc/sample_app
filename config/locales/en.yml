@@ -78,6 +78,7 @@ en:
       password_confirmation: "Confirmation"
       view_profile: "View Profile"
       micropost: "Micropost"
+      user_not_found: "User not found"
     user_info:
       name: "Name %{name}"
       email: "Email %{email}"
@@ -147,3 +148,9 @@ en:
       success: "Micropost deleted."
       fail: "Micropost not deleted"
       invalid: "Micropost invalid"
+  follow:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    followings: "Following"
+    followers: "Followers"
+    relationship_404: "Relatioship not found"
